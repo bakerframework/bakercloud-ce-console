@@ -1,0 +1,137 @@
+.ui-slider{
+    font-size:65%;
+}
+.ui-slider-handle{
+    outline: none;
+}
+#elements_preview > li{
+    padding-left:5px;
+    padding-right:5px;
+    margin:2px;
+    cursor:move;
+    border-radius:5px;
+    cursor:move;
+    /*width:700px;*/
+    border:2px dashed;
+    border-color: transparent;
+    position: relative;
+}
+.form-horizontal > #elements_preview > li{
+    padding-top: 5px;
+}
+
+.form-horizontal > #elements_preview > li > .control-group{
+    margin-bottom: 15px;
+}
+#navbar.affix {
+    top: 56px;
+}
+#navbar{
+    width:258px;
+}
+#fields > ul >li{
+    position: relative;
+}
+#fields > ul > li > a{
+    cursor: pointer;
+}
+#fields > ul > li > a > i{
+    position: absolute; 
+    right:10px; 
+    top:10px; 
+    cursor: pointer;
+}
+#fields > ul > li.disabled > a > i{
+    display:none;
+}
+#fields > ul > li.disabled > a{
+    cursor: default;
+}
+
+#elements_preview > li > a#btn_close{
+    position: absolute; 
+    display:none;
+    right:10px; 
+    top:5px; 
+    cursor: pointer;
+}
+
+#elements_preview > li > a#btn_edit{
+    position: absolute; 
+    display:none;
+    right:60px; 
+    top:5px; 
+    cursor: pointer;
+}
+
+#elements_preview .control-label{
+    cursor:move;
+}
+.icon-edit{
+    right:35px !important;
+}
+#elements_preview > li.selected{
+    background:#f4f4f4;
+    /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);*/
+    border:2px dashed #DDDDDD;
+}
+
+#elements_preview > li:HOVER{
+    border:2px dashed #DDDDDD;
+}
+.nav-tabs > li > a ,
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:ACTIVE,
+.nav-tabs.nav-stacked > li > a,
+.nav-tabs.nav-stacked > li > a:ACTIVE{
+    outline: none;
+}
+.ui-state-highlight{
+    background:#f7f7f7;
+}
+
+.dropdown-menu > .active > a{
+	background-color: none;
+	background-image: none;
+}
+
+.breadcrumb{
+    margin-bottom:3px;
+}
+thead>tr>th {
+	padding: 5px;
+	margin: 2px;
+	cursor: move;
+	white-space: nowrap;
+	text-align: center !important;
+	color: #333333;
+	text-shadow: 0 1px 0 #FFFFFF;
+	background-color: #e6e6e6;
+}
+#filter_elements > li{
+    cursor: move;
+}
+
+#column_elements > li > a, #filter_elements > li > a{
+	/*padding-top:6px;
+	padding-bottom:6px;
+	color:#333333;*/
+	cursor: move;
+}
+#column_elements > li > a > label, #filter_elements > li > a > label{
+	margin-bottom:0;
+	display:inline-block;
+	cursor: move;
+}
+
+#dataListConfigCommon{
+	margin-bottom:20px;	
+}
+
+#dataListConfigCommon > .control-group{
+	margin-bottom:6px;
+}
+
+.form-horizontal .control-label{
+    text-align: left !important;
+}

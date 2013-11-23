@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"ISSUE_DOWNLOAD_SECURITY","label":"Issue Security?","type":"radio","options":["True","False"],"type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","values":["TRUE","FALSE"]}

@@ -1,0 +1,47 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.8
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Nov 23, 2013 at 05:27 PM
+-- Server version: 5.5.32-cll
+-- PHP Version: 5.3.17
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `bakerc_cloudce`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `SUBSCRIPTIONS`
+--
+
+CREATE TABLE IF NOT EXISTS `SUBSCRIPTIONS` (
+  `APP_ID` varchar(255) NOT NULL,
+  `USER_ID` varchar(255) NOT NULL,
+  `EFFECTIVE_DATE` datetime NOT NULL,
+  `EXPIRATION_DATE` datetime NOT NULL,
+  `LAST_VALIDATED` datetime NOT NULL,
+  PRIMARY KEY (`APP_ID`(75),`USER_ID`(50))
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `SUBSCRIPTIONS`
+--
+
+INSERT INTO `SUBSCRIPTIONS` (`APP_ID`, `USER_ID`, `EFFECTIVE_DATE`, `EXPIRATION_DATE`, `LAST_VALIDATED`) VALUES
+('com.nin9creative.baker', 'D5DBF605-995F-4D66-8393-45D1017D12B9', '2013-04-25 19:16:53', '2013-04-25 19:46:53', '2013-04-25 19:16:58');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

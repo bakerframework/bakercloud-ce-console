@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"group_id","label":"Group","type":"select","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","db_options":{"table":"crud_groups","key":"id","value":"group_name"},"list_choose":"database"}

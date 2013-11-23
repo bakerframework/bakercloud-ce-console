@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"APP_ID","label":"App ID","type":"select","type_options":{"size":"350","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","db_options":{"table":"PUBLICATION","key":"APP_ID","value":"APP_ID"},"list_choose":"database"}
