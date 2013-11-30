@@ -11,15 +11,6 @@ class Home extends Admin_Controller {
 
         $var = array();
         
-        $tables = array();
-        $query = $this->db->query('SHOW TABLES');
-        if (!empty($query)) {
-            foreach ($query->result_array() as $row) {
-                $tables[] = $row['Tables_in_' . $this->db->database];
-            }
-        }
-        $var['tables'] = $tables;
-        
         $var['main_menu'] = $this->home_menu->fetch();
         $var['main_content'] = $this->load->view('admin/common/home',$var,true);
 

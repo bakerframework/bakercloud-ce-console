@@ -1,5 +1,5 @@
+<div id="header"><div class="container"><h1>User Manager: Groups</h1></div></div>
 <div class="container">
-		<h2>User Manager: Groups	</h2>
         <ul class="nav nav-tabs" id="auth_tab" style="margin-bottom: 0px;">
         <?php if ((int) $crudAuth['group']['group_manage_flag'] == 1 || 
         		(int) $crudAuth['group']['group_manage_flag'] == 3 ||

@@ -18,6 +18,15 @@ $lang['__BTN_EXPORT_CSV__'] = "Export CSV";
 
 $lang['__LBL_PROJECT_NAME__'] = "Baker Cloud Console (CE)";
 $lang['__LBL_MAIN__'] = "Dashboard";
+$lang['__LBL_TOOLS__'] = "Tools";
+$lang['__LBL_PUBLICATION__'] = "Publication";
+$lang['__LBL_ISSUES__'] = "Issues";
+$lang['__LBL_PURCHASES__'] = "Purchases";
+$lang['__LBL_RECEIPTS__'] = "Receipts";
+$lang['__LBL_SUBSCRIPTIONS__'] = "Subscriptions";
+$lang['__LBL_APNS_TOKENS__'] = "APNS Tokens";
+$lang['__LBL_SYSTEM_LOG__'] = "System Log";
+$lang['__LBL_ANALYTICS__'] = "Analytics";
 $lang['__LBL_CONFIG__'] = "Configuration";
 $lang['__LBL_BROWSER__'] = "Data Browser";
 $lang['__LBL_PUBLICATION_MANANGER__'] = "Publication Management";
@@ -102,5 +111,5 @@ $lang['__LBL_LIST__'] = " &nbsp; List &nbsp; ";
 
 
 
-$lang['__LBL_COPYRIGHT__'] = "&copy; 2014 <a href='http://www.bakerframework.com' target='_blank'>Baker Cloud Console (CE)</a> by <a href='http://www.nin9creative.com' target='_blank'>NIN9 Creative, LLC</a>";
+$lang['__LBL_COPYRIGHT__'] = "&copy; 2014 <a href='http://www.bakerframework.com' target='_blank'>Baker Cloud Console (CE) v1.1</a> by <a href='http://www.nin9creative.com' target='_blank'>NIN9 Creative</a>";
 

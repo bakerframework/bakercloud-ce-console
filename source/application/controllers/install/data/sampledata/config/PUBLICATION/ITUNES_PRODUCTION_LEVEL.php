@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"ITUNES_PRODUCTION_LEVEL","label":"iTunes API Level","type":"radio","options":["Sandbox","Production"],"type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","values":["sandbox","production"]}

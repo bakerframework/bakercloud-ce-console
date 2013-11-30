@@ -3,7 +3,7 @@ $crudUser = $CI->input->post('crudUser');
 ?>
 <div class="container">
 	<div class="row">
-		<div class="span12 pagination-centered">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<image src="<?php echo base_url(); ?>media/images/BakerCloudCELogoAvatar.png" alt="Baker Cloud Console Logo"></image></div>
+		<div class="span12 pagination-centered">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<image src="<?php echo base_url(); ?>media/images/BakerCloudCELogoAvatar.png" alt="Baker Cloud (CE) Logo"></image></div>
 		<div class="span4 offset4 well">
 			<legend><?php echo $this->lang->line('__LBL_LOGIN_HEADER__'); ?></legend>
 			<form  method="post" class="">

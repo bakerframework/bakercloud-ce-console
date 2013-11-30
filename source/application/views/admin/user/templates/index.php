@@ -32,15 +32,13 @@ foreach ($this->colsWidth as $k => $v) {
 <?php if (!empty($this->form)) { ?>
     </div>
 	<div style="height: 52px;">
-    <div data-spy="affix" data-offset-top="88" style="
-         top: 24px;
+    <div data-spy="affix" data-offset-top="128" style="
+         top: 54px;
          width: 100%;
          padding-top:5px;
          padding-bottom:5px;
          z-index: 100;">
-        <div class="container" style="border-bottom: 1px solid #CCC; padding-bottom:5px;padding-top:5px;
-        	background: #FBFBFB;
-       		background-image: linear-gradient(to bottom, #FFFFFF, #FBFBFB);">
+        <div class="container" style="border-bottom: 1px solid #CCC; padding-bottom:5px;padding-top:5px;">
             <div style="text-align:right;width:100%;">
             	<div class="btn-group">
                 <a class="btn" onclick="searchModal();"><i class="icon-search"></i> Search</a>
@@ -332,9 +330,9 @@ foreach ($this->colsWidth as $k => $v) {
                                                         }
                                                         break;
                                                     case 'image':
-                                                        if (file_exists(__IMAGE_UPLOAD_REAL_PATH__ . '/thumbnail_' . $__value)) {
+                                                        if (file_exists(__IMAGE_UPLOAD_REAL_PATH__ . 'thumbnail_' . $__value)) {
                                                             echo "<img src='" . __MEDIA_PATH__ . "images/thumbnail_" . $__value . "' />";
-                                                        } else if (__IMAGE_UPLOAD_REAL_PATH__ . '/mini_thumbnail_' . $__value) {
+                                                        } else if (file_exists(__IMAGE_UPLOAD_REAL_PATH__ . 'mini_thumbnail_' . $__value)) {
                                                             echo "<img src='" . __MEDIA_PATH__ . "images/mini_thumbnail_" . $__value . "' />";
                                                         } else {
                                                             echo '';

@@ -1,3 +1,4 @@
-Baker Cloud Console v1.0 2013-11-16
+Baker Cloud Console (CE) v1.1 2013-11-29
 ----------------------------------------
-- As is migration of MagRocket Administration Console.
+- Updated to 1.1 (MagRocket Master Update)
+- UI Updates, Branding Updates for Baker Cloud Console

@@ -1,10 +1,10 @@
 <?php
 $crudAuth = $this->session->userdata('CRUD_AUTH');
 ?>
+<div id="header"><div class="container"><h1><?php echo $this->lang->line('__LBL_DASHBOARD__'); ?></h1></div></div>
 <div class="container">
-        <h2><?php echo $this->lang->line('__LBL_DASHBOARD__'); ?></h2>
-	     <div class="alert alert-info">
-    	  <strong>Welcome to Baker Cloud Console (Community Edition)!</strong>
+	     <div class="alert alert-success">
+    	  <strong>Welcome to Baker Cloud Console (CE)!</strong>
     	  </div>
     	  <p>
     	  		Baker Cloud Console (CE) is a complete backend solution and REST API for supporting Newsstand applications built with the <a href="http://www.bakerframework.com" target="_blank">Baker Framework</a>.
@@ -24,7 +24,7 @@ $crudAuth = $this->session->userdata('CRUD_AUTH');
 			    <tbody>
 			    <tr>
 			    <td>Publication</td>
-			    <td>Defines the list of publications that you are supporting with your Baker Cloud Console (CE) installation.  Each publication would correspond to a deployed iOS Baker Newsstand application.</td>
+			    <td>Defines the list of publications that you are supporting with your Baker Cloud Console (CE) backend installation.  Each publication would correspond to a deployed iOS Baker Newsstand application.</td>
 			    </tr>
   			    <tr>
 			    <td>Issues</td>

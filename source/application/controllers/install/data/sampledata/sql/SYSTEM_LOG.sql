@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 23, 2013 at 05:27 PM
+-- Generation Time: Nov 30, 2013 at 01:40 AM
 -- Server version: 5.5.32-cll
 -- PHP Version: 5.3.17
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `SYSTEM_LOG` (
   `MESSAGE` text,
   `TIMESTAMP` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`ID`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1321 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1320 ;
 
 --
 -- Dumping data for table `SYSTEM_LOG`

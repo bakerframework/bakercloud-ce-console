@@ -8,8 +8,8 @@ if (!empty($table) && trim($table) != '') {
     $editFlag = true;
 }
 ?>
+<div id="header"><div class="container"><h1>User Manager: Tables</h1></div></div>
 <div class="container">
-		<h2>User Manager: Tables</h2>
         <ul class="nav nav-tabs" id="auth_tab" style="margin-bottom: 10px;">
         	<?php if ((int) $crudAuth['group']['group_manage_flag'] == 1 || 
         		(int) $crudAuth['group']['group_manage_flag'] == 3 ||

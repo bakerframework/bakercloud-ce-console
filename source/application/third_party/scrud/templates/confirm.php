@@ -3,15 +3,13 @@ $key = $CI->input->post('key');
 ?>
 </div>
 <div style="height: 52px;">
-    <div data-spy="affix" data-offset-top="54" style="
-         top: 24px;
+    <div data-spy="affix" data-offset-top="94" style="
+         top: 54px;
          width: 100%;
          padding-top:5px;
          padding-bottom:5px;
          z-index: 100;">
-        <div class="container" style="border-bottom: 1px solid #CCC; padding-bottom:5px;padding-top:5px;
-        	background: #FBFBFB;
-       		background-image: linear-gradient(to bottom, #FFFFFF, #FBFBFB);">
+        <div class="container" style="border-bottom: 1px solid #CCC; padding-bottom:5px;padding-top:5px;">
             <div style="text-align:right; width:100%;">
                 <a class="btn"  onclick="crudBack();">  &nbsp; Back  &nbsp; </a>
                 <a class="btn btn-info" onclick="crudUpdate();" > &nbsp;  <i class="icon-ok icon-white"></i>  Save &nbsp; </a>
@@ -20,7 +18,7 @@ $key = $CI->input->post('key');
     </div>
     </div>
 <div class="container">
-<div class='x-table well <?php echo $this->conf['color']; ?>'>
+<div class='x-table well <?php echo $this->conf['color']; ?>'  style="background:#FBFBFB;">
     <form method="post" action="" id="crudForm" <?php if ($this->frmType == '2'){ ?>class="form-horizontal"<?php } ?>>
         <input type="hidden" name="auth_token" id="auth_token" value="<?php echo $this->getToken(); ?>"/>
         <?php

@@ -1,0 +1,158 @@
+/*!
+ * Bounce Template v2.1 - Blue
+ * More colors coming soon! 
+ *
+ * Built with Bootstrap v2.2.2
+ * http://twitter.github.com/bootstrap
+ */
+
+/* Navbar
+-------------------------------------------------- */
+.navbar-inner {
+    background: none repeat scroll 0 0 #bc242a;
+}
+.navbar .brand {
+    color: #FFFFFF;
+    display: inline-block;
+	width: 200px;
+	height: 40px;
+	padding: 0;
+	margin: 0 0 0 0;
+	background: url(../img/logo.png) no-repeat;
+}
+.navbar .nav > li > a {
+    color: #FFFFFF;
+}
+.navbar .nav > li > a:hover {
+    color: #FFFFFF;	
+}
+.navbar .nav > li.active > a,
+.navbar .nav > li.active:hover > a,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+/* Landing
+-------------------------------------------------- */
+#landing {
+    background: none repeat scroll 0 0 #F1F1F1;
+}
+#landing h1 {
+    color: #308CCF;
+}
+#landing p {
+    color: #394755;
+}
+#landing .carousel-control {
+    color: #0088CC;
+}
+#landing .carousel-control:hover {
+    color: #17405E;
+}
+#landingSlide {
+    background: url("../img/landing.png") no-repeat scroll center 200px #F1F1F1;
+}
+
+/* Page Header
+-------------------------------------------------- */
+#header {
+    background: none repeat scroll 0 0 #f3f3f3;
+}
+#header h1 {
+    color: #bc242a;
+}
+
+/* Main Content
+-------------------------------------------------- */
+#content {
+    background: url("../img/noise.png") repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+}
+.bouncy:hover i {
+    color: #0074CC;
+}
+
+/* Pricing Tables
+-------------------------------------------------- */
+.product-plan {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+ul.plans {
+    margin: 0;
+}
+.product-plan .name {
+    background: none repeat scroll 0 0 #394755;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.product-plan .name h3 {
+    color: #D6DFE5;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+}
+.product-plan .price {
+    background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+}
+.product-plan .price h3 {
+    color: #308CCF;
+}
+.product-plan .feature {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+}
+.product-plan .action {
+    background: none repeat scroll 0 0 #F1F1F1;
+}
+.product-plan.popular .name {
+	background: none repeat scroll 0 0 #bc242a;
+	color: #FFFFFF;
+}
+.product-plan.popular .name h3 {
+	color: #FFFFFF;
+}
+
+/* Footer
+-------------------------------------------------- */
+#footer {
+	background: none repeat scroll 0 0 #F1F1F1;
+    color: #17405E;
+}
+#footer h3  {
+    color: #bc242a;
+}
+#footer a {
+    color: #bc242a;	
+}
+#footer a:hover {
+    color: #bc242a;
+}
+
+/* Copywrite
+-------------------------------------------------- */
+#copywrite {
+	background: none repeat scroll 0 0 #bc242a;
+    color: #D6DFE5;
+}
+
+/* Mobile Defaults
+------------------------- */
+@media (max-width: 979px) {
+  .navbar .nav-collapse .nav > li.active > a,
+  .navbar .nav-collapse .nav > li.active:hover > a,  
+  .navbar .nav-collapse .nav .active > a,
+  .navbar .nav-collapse .nav .active > a:hover,
+  .navbar .nav-collapse .nav .active > a:focus {
+    background-color: #308CCF;	
+  }
+  .navbar .nav-collapse .nav > li > a:hover {
+    background-color: #308CCF;
+  }
+  .product-plan .feature .pull-right {
+    color: #308CCF;
+  }
+}

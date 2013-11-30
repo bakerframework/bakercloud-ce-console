@@ -1,5 +1,5 @@
+<div id="header"><div class="container"><h1><?php echo $conf['title']; ?></h1></div></div>
 <div class="container">
-		<h2><?php echo $conf['title']; ?></h2>
 		<?php echo $content; ?>
         <footer>
 	        <hr />

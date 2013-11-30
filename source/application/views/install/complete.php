@@ -8,8 +8,8 @@
      -webkit-border-radius: 7px; 
      border-radius: 7px;">
     <center><h3>Baker Cloud Console (CE) Installation</h3></center>
-    <p><b>Congratulations</b>, you have successfully installed Baker Cloud Console. <a href="<?php echo base_url(); ?>index.php/admin/login">Click here</a>  to login with user credentials below.  Once you've logged in, you can change the password and profile information for this user.  At this time this is the only username supported for administration of the backend.</p>
-    Super User (read,edit,delete):
+    <p><b>Congratulations</b>, you have successfully installed Baker Cloud Console (CE). <a href="<?php echo base_url(); ?>index.php/admin/login">Click here</a>  to login with user credentials below.  Once you've logged in, you can change the password and profile information for this user.  At this time this is the only username supported for administration of the backend.</p>
+    Super user (read,edit,delete):
     <br>
     account:
     <b>user</b>

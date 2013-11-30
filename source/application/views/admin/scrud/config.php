@@ -25,11 +25,10 @@ if (!empty($crudConfigTable)) {
         ScrudCForm.elements['<?php echo $f; ?>'] = <?php echo $c; ?>;
 <?php } ?>
 </script>
-
+<div id="header"><div class="container"><h1>Config <?php echo $_GET['table']; ?></h1></div></div>
 <div class="container">
     <div class="row-fluid" >
         <div class="tabbable">
-        	<h2>Config <?php echo $_GET['table']; ?></h2>
             <ul  class="nav nav-tabs" id="myTab" style="margin-bottom: 0px;">
                 <li class="active"><a data-toggle="tab" href="#form"><?php echo $this->lang->line('__LBL_FORM__'); ?></a></li>
                 <li><a data-toggle="tab" href="#searchList" onclick="__clickList();"><?php echo $this->lang->line('__LBL_LIST__'); ?></a></li>

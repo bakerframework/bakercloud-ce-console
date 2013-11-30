@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"SUBSCRIPTION_BEHAVIOR","label":"Subscription Behavior","type":"radio","options":["Unlock All Issues","Unlock Only Issues Within Subscription Term"],"type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","values":["all","term"]}

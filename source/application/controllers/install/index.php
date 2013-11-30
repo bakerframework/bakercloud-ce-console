@@ -16,8 +16,8 @@ class Index extends CI_Controller {
     }
 
     public function index() {
-        if (file_exists(__DATABASE_CONFIG_PATH__ . '/' . $this->db->database . '/v_1.0.txt')) {
-        	echo "You have already run the install for MagRocket v1.0";
+        if (file_exists(__DATABASE_CONFIG_PATH__ . '/' . $this->db->database . '/v_1.1.txt')) {
+        	echo "You have already run the install for Baker Cloud Console (CE) v1.1";
             exit;
         }
         if (count($_POST) > 0) {
@@ -162,12 +162,20 @@ class Index extends CI_Controller {
             $dump->doImport();
             ob_get_clean();                             
              
+            ob_start();
+            $filename = dirname(__FILE__) . '/data/sampledata/sql/ANALYTICS.sql';
+            $compress = false;
+            $dump = new phpMyImporter($this->db->database, $connection, $filename, $compress);
+            $dump->utf8 = true;
+            $dump->doImport();
+            ob_get_clean(); 
+                         
             $oldumask = umask(0);
             recurse_copy(dirname(__FILE__) . '/data/sampledata/config', __DATABASE_CONFIG_PATH__ . '/' . $this->db->database);
             umask($oldumask);
 
             $oldumask = umask(0);
-            file_put_contents(__DATABASE_CONFIG_PATH__ . '/' . $this->db->database . '/v_1.0.txt', "");
+            file_put_contents(__DATABASE_CONFIG_PATH__ . '/' . $this->db->database . '/v_1.1.txt', "");
             umask($oldumask);
 
             $var = array();

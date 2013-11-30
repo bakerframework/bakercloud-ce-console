@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"ITUNES_REVALIDATION_DURATION","label":"iTunes Cache Duration","type":"radio","options":["No Caching","1 hour","6 hours","12 hours"],"type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","list_choose":"default","values":["-1","1","6","12","24"]}

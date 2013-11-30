@@ -3,7 +3,8 @@
         <div class="container"><a class="btn btn-navbar"
                                   data-toggle="collapse" data-target=".nav-collapse"> <span
                     class="icon-bar"></span> <span class="icon-bar"></span> <span
-                    class="icon-bar"></span> </a> <a class="brand" href="<?php echo base_url(); ?>index.php/admin/dashboard"><?php echo $this->lang->line('__LBL_PROJECT_NAME__'); ?></a>
+                    class="icon-bar"></span> </a> <a class="brand" href="<?php echo base_url(); ?>index.php/admin/dashboard"></a>
+                    <!--<a class="brand" href="<?php echo base_url(); ?>index.php/admin/dashboard"><?php echo $this->lang->line('__LBL_PROJECT_NAME__'); ?></a>-->
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     <li <?php if ($type == 'dashboard') { ?>class="active"<?php } ?>><a href="<?php echo base_url(); ?>index.php/admin/dashboard"><?php echo $this->lang->line('__LBL_MAIN__'); ?></a></li>
@@ -68,7 +69,7 @@
                 </ul>
                 <ul class="nav pull-right">
                     <li class="dropdown   <?php if ($type == 'account') { ?>active<?php } ?>">
-                        <a class=" dropdown-toggle" data-toggle="dropdown" href="#" > &nbsp;  <i class="icon icon-user"></i>&nbsp; <?php echo $crudAuth['user_name']; ?><b class="caret"></b></a>
+                        <a class=" dropdown-toggle" data-toggle="dropdown" href="#" > &nbsp;  <i class="icon icon-user icon-white"></i>&nbsp; <?php echo $crudAuth['user_name']; ?><b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <?php if ($crudAuth['group']['group_name'] != 'SystemAdmin') { ?>
                                 <li><a href="<?php echo base_url(); ?>index.php/user/editprofile"> <i class="icon-user"></i> <?php echo $this->lang->line('__LBL_EDIT_PROFILE__'); ?></a></li>

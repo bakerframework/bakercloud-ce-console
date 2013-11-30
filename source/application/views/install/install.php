@@ -9,8 +9,8 @@
          -webkit-border-radius: 7px; 
          border-radius: 7px;">
         <center><h3>Baker Cloud Console (CE) Installation</h3></center>
-        <p>Welcome to Baker Cloud Console!</p>
-        <p>The Baker Cloud Console is one of two server side components required to support In-App Purchases and Paid Subscriptions for the Baker iOS Newsstand framework.  In addition to the HTML/PHP administration backend, the REST API service layer must also be installed so that the Baker iOS application can "talk" to the server side backend.  Please follow the directions for installing both components.  If you are having issues, please head over to the <a href="http://www.github.com/bakerframework/bakercloud-ce-console" target="_blank">GitHub Repository</a> for help.</p>
+        <p>Welcome to Baker Cloud Console (CE)!</p>
+        <p>The Baker Cloud Console (CE) Administration Console is one of two server side components required to support In-App Purchases and Paid Subscriptions for the Baker iOS Newsstand framework.  In addition to the HTML/PHP administration backend, the REST API service layer must also be installed so that the Baker iOS application can "talk" to the server side backend.  Please follow the directions for installing both components.  If you are having issues, please head over to the <a href="http://www.github.com/bakerframework/bakercloud-ce-console" target="_blank">GitHub Repository</a> for help.</p>
         <h4>Config/Database Folder</h4>
         <p>The config/database folder must be writable, please check before continuing.</p>
         <table>
@@ -40,7 +40,7 @@
             </tr>
         </table>
         <h4>Data</h4>
-		<p>Sample data will be installed as part of this installation.  Examine it as a reference for creating your own Publication / Issues.</p>
+		<p>Sample data will be installed as part of this installation.  Examine it as reference for creating your own Publication / Issues.</p>
         <label class="checkbox">
             <input type="hidden" value="0" id="sample_data" name="sample_data">
             <input type="checkbox" value="1" id="sample_data" name="sample_data" checked="checked"> Proceed with Installation :)
@@ -55,7 +55,7 @@
             <?php } ?>
         </div>
         <?php } ?>
-        <input type="submit" class="btn btn-large btn-success" value="Install Baker Cloud Console (CE) v1.0" />
+        <input type="submit" class="btn btn-large btn-success" value="Install Baker Cloud Console (CE) v1.1" />
 
 
         <hr />

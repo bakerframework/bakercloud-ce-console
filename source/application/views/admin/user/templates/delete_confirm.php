@@ -1,15 +1,13 @@
 <?php $CI = & get_instance(); ?>
 </div>
 <div style="height: 52px;">
-    <div data-spy="affix" data-offset-top="88" style="
-         top: 24px;
+    <div data-spy="affix" data-offset-top="128" style="
+         top: 54px;
          width: 100%;
          padding-top:5px;
          padding-bottom:5px;
          z-index: 100;">
-        <div class="container" style="border-bottom: 1px solid #CCC; padding-bottom:5px;padding-top:5px;
-        	background: #FBFBFB;
-       		background-image: linear-gradient(to bottom, #FFFFFF, #FBFBFB);">
+        <div class="container" style="border-bottom: 1px solid #CCC; padding-bottom:5px;padding-top:5px;">
             <div style="text-align:right;width:100%;">
                 <a class="btn"  onclick="crudBack();">  &nbsp; Back  &nbsp; </a>
                 <a class="btn btn-danger" onclick="crudDelete('<?php echo http_build_query(array('key' => $_GET['key']), '', '&'); ?>');" > &nbsp;  <i class="icon-remove icon-white"></i>  Delete &nbsp; </a>
@@ -18,7 +16,7 @@
     </div>
     </div>
 <div class="container">
-<div class='x-table well <?php echo $this->conf['color']; ?>'>
+<div class='x-table well <?php echo $this->conf['color']; ?>'  style="background:#FBFBFB;">
         <?php $elements = $this->form; ?>
     <form method="post" action="" id="crudForm" <?php if ($this->frmType == '2') { ?>class="form-horizontal"<?php } ?>>
         <?php
