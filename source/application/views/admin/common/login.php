@@ -34,7 +34,7 @@ $crudUser = $CI->input->post('crudUser');
               </div>
             </div>
 			<br />
-			<button class="btn btn-info btn-block " name="submit" type="submit"><?php echo $this->lang->line('__LBL_SIGN_IN_BUTTON__'); ?></button>
+			<button class="btn btn-success btn-block " name="submit" type="submit"><?php echo $this->lang->line('__LBL_SIGN_IN_BUTTON__'); ?></button>
 			</form> 
 		</div>
 	</div>

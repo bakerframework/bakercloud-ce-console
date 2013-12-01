@@ -44,7 +44,7 @@ class Admin_Controller extends MY_Controller {
     }
 
     private function authenticate() {
-        if (!file_exists(__DATABASE_CONFIG_PATH__ . '/' . $this->db->database . '/v_1.0.txt')) {
+        if (!file_exists(__DATABASE_CONFIG_PATH__ . '/' . $this->db->database . '/v_1.1.txt')) {
             redirect('install/index');
         } else {
             $auth = $this->session->userdata('CRUD_AUTH');
